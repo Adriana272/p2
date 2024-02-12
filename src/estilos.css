@@ -4,19 +4,38 @@ table {
     font-family: sans-serif;
     font-size: 0.8rem;
     letter-spacing: 1px;
+    text-align: justify;
+    margin: 0 auto;
+
   }
 
   video {
-    width:100%;
+    width:800;
+    text-align: center;
+    margin: 0 auto;
   }
 
   img {
-    width:100%;
+    width:800;
+    /*text-align: justify;*/
+    margin: 0 auto;
+    text-align: center;
+
+  }
+
+  p{
+    font-weight: bold;
+    text-align: center;
+  }
+
+  legend{
+    font-weight: bold;
   }
 
   body{
     background-image: url("./images/fondopantallamaderalisa.png");
     /*cursor: url("./images/gorrochefcursor.png"), auto;*/
+    text-align: center;
   }
 
   .custom-cursor {
@@ -32,6 +51,10 @@ table {
     caption-side: bottom;
     padding: 10px;
     font-weight: bold;
+    text-align: justify;
+    margin: 0 auto;
+    width:100%;
+
   }
   
   thead,
@@ -43,6 +66,8 @@ table {
   td {
     border: 1px solid rgb(160 160 160);
     padding: 8px 10px;
+    text-align: justify;
+    font-weight: bold;
   }
   
   td:last-of-type {
@@ -63,6 +88,7 @@ table {
   
   tfoot th {
     text-align: right;
+    font-weight: bold;
   }
   
   tfoot td {
