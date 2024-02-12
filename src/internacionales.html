@@ -1,21 +1,33 @@
+<head>
+    <link rel="stylesheet" type="text/css" href="estilos.css">
+    <link rel="stylesheet" type="text/css" href="header.css">
+</head>
+
 <body>
     <header>
-      <h1>El planeta se mide en recetas</h1>
-      <h2>Aquí se encuentran numerosas recetas de todo el mundo</h2>
-    </header>
-    <nav><!-- Menú de navegación por la web --> 
-      <ul>
-          <li><a href="nacionales.html">Recetas nacionales</a></li>
-          <li><a href="internacionales.html">Recetas internacionales</a></li>
-      </ul>
-    </nav>
+		<div class="wrapper">
+			<div class="logo">Bob's Blog</div>
+			<nav>
+			    <a href="nacionales.html">Recetas nacionales</a>
+                <a href="internacionales.html">Recetas internacionales</a>
+                <a href="restaurante.html">Reserva en nuestro restaurante</a>
+			</nav>
+		</div>
+	</header>
+    
     <main> <!-- Contenido principal de la página actual-->
+        <h1>El planeta se mide en recetas</h1>
+      <figure>
+        <img alt="Imagen cocina mundial" src="./images/mapamundicomida.jpg">
+        <figcaption></figcaption>
+      </figure>
+      <h2>Aquí se encuentran las mejores recetas de todo el mundo</h2>
       <article> <!-- Algo autocontenido, distribuible, reusable de forma independiente -->
         <section>
-          <h3>Los paises</h3>
+          <h3></h3>
         <table>
         <caption>
-            Viajemos
+            LET'S COOK!
         </caption>
         <thead>
             <tr>
@@ -27,98 +39,148 @@
         <tbody>
             <tr>
             <th scope="row">Asia</th>
-            <td>China</td>
-            <td>Pollo con almendras</td>
-            <td>Pollo al limón</td>
-            <td>Rollitos de primavera</td>
-            <td>Arroz tres delicias</td>
+            <td scope="row">China<img alt="Imagen china" src="./images/bandera_china.png" width="20" height="100"></td>
+            <td>
+                <ul>
+                    <li><a href="nacionales.html">Pollo con almendras</a></li>
+                    <li><a href="nacionales.html">Pollo al limón</a></li>
+                    <li><a href="nacionales.html">Rollitos de primavera</a></li>
+                    <li><a href="nacionales.html">Arroz tres delicias</a></li>
+                </ul>
+            </td>
             </tr>
             <tr>
             <th scope="row">Asia</th>
-            <td>Japón</td>
-            <td>Edamame</td>
-            <td>Gyozas</td>
-            <td>Makis</td>
+            <td scope="row">Japón<img alt="Imagen japon" src="./images/bandera_japon.png" width="20" height="100"></td>
+            <td>
+                <ul>
+                    <li><a href="nacionales.html">Edamame</a></li>
+                    <li><a href="nacionales.html">Langostinos en tempura</a></li>
+                    <li><a href="nacionales.html">Gyozas</a></li>
+                    <li><a href="nacionales.html">Makis</a></li>
+                </ul>
+            </td>
             </tr>
             <tr>
             <th scope="row">África</th>
-            <td>Egipto</td>
-            <td>Fatta</td>
-            <td>Falafel</td>
-            <td>Baba Ganoush</td>
-            <td>Kibbe</td>
+            <td scope="row">Egipto<img alt="Imagen egipto" src="./images/bandera_egipto.png" width="20" height="100"></td>
+            <td>
+                <ul>
+                    <li><a href="nacionales.html">Fatta</a></li>
+                    <li><a href="nacionales.html">Falafel</a></li>
+                    <li><a href="nacionales.html">Baba Ganoush</a></li>
+                    <li><a href="nacionales.html">Kibbe</a></li>
+                </ul>
+            </td>
             </tr>
             <tr>
             <th scope="row">África</th>
-            <td>Marruecos</td>
-            <td>Baghrir</td>
-            <td>Cous Cous</td>
-            <td>Briouats de pescado</td>
-            <td>Zaalouk</td>
+            <td scope="row">Marruecos<img alt="Imagen marruecos" src="./images/bandera_marruecos.png" width="20" height="100"></td>
+            <td>
+                <ul>
+                    <li><a href="nacionales.html">Baghrir</a></li>
+                    <li><a href="nacionales.html">Cous cous</a></li>
+                    <li><a href="nacionales.html">Briouats de pescado</a></li>
+                    <li><a href="nacionales.html">Zaalouk</a></li>
+                </ul>
+            </td>
             </tr>
             <tr>
             <th scope="row">América del Norte</th>
-            <td>Estados Unidos</td>
-            <td>Marruecos</td>
-            <td>Baghrir</td>
-            <td>Cous Cous</td>
-            <td>Briouats de pescado</td>
-            <td>Zaalouk</td>
+            <td scope="row">EEUU<img alt="Imagen eeuu" src="./images/bandera_eeuu.png" width="20" height="100"></td>
+            <td>
+                <ul>
+                    <li><a href="nacionales.html">Apple pie</a></li>
+                    <li><a href="nacionales.html">Barbacue ribs</a></li>
+                    <li><a href="nacionales.html">Cheese burger</a></li>
+                    <li><a href="nacionales.html">Chicago style pizza</a></li>
+                </ul>
+            </td>
             </tr>
             <tr>
             <th scope="row">Ámerica del Norte</th>
-            <td>Canadá</td>
+            <td scope="row">Canadá<img alt="Imagen canada" src="./images/bandera_canada.png" width="20" height="100"></td>
+            <td>
+                <ul>
+                    <li><a href="nacionales.html">Poutine</a></li>
+                    <li><a href="nacionales.html">Maple Syrup</a></li>
+                    <li><a href="nacionales.html">Tourtière</a></li>
+                    <li><a href="nacionales.html">Smoked Meat</a></li>
+                </ul>
+            </td>
             </tr>
             <tr>
             <th scope="row">América del Sur</th>
-            <td>Brasil</td>
+            <td scope="row">Brasil<img alt="Imagen brasil" src="./images/bandera_brasil.png" width="20" height="100"></td>
+            <td>
+                <ul>
+                    <li><a href="nacionales.html">Feijoada</a></li>
+                    <li><a href="nacionales.html">Picanha</a></li>
+                    <li><a href="nacionales.html">Coxinha de frango</a></li>
+                    <li><a href="nacionales.html">Pao de queijo</a></li>
+                </ul>
+            </td>
             </tr>
             <tr>
             <th scope="row">Amércia del Sur</th>
-            <td>México</td>
+            <td scope="row">México<img alt="Imagen mexico" src="./images/bandera_mexico.png" width="20" height="100"></td>
+            <td>
+                <ul>
+                    <li><a href="nacionales.html">Tacos</a></li>
+                    <li><a href="nacionales.html">Totopos</a></li>
+                    <li><a href="nacionales.html">Enchiladas</a></li>
+                    <li><a href="nacionales.html">Mole</a></li>
+                </ul>
+            </td>
             </tr>
             <tr>
             <th scope="row">Europa</th>
-            <td>España</td>
+            <td scope="row">Italia<img alt="Imagen italia" src="./images/bandera_italia.png" width="20" height="100"></td>
+            <td>
+                <ul>
+                    <li><a href="nacionales.html">Spaghetti alla carbonara</a></li>
+                    <li><a href="nacionales.html">Lasagna</a></li>
+                    <li><a href="nacionales.html">Pizza Margherita</a></li>
+                    <li><a href="nacionales.html">Gelato</a></li>
+                </ul>
+            </td>
             </tr>
             <tr>
             <th scope="row">Europa</th>
-            <td>Italia</td>
+            <td scope="row">Francia<img alt="Imagen francia" src="./images/bandera_francia.png" width="20" height="100"></td>
+            <td>
+                <ul>
+                    <li><a href="nacionales.html">Ratatouille</a></li>
+                    <li><a href="nacionales.html">Croque-Monsieur y Croque-Madame</a></li>
+                    <li><a href="nacionales.html">Foie Gras</a></li>
+                    <li><a href="nacionales.html">Crepes</a></li>
+                </ul>
+            </td>
             </tr>
             <tr>
             <th scope="row">Europa</th>
-            <td>Francia</td>
-            </tr>
-            <tr>
-            <th scope="row">Europa</th>
-            <td>Alemania</td>
-            </tr>
-            <tr>
-            <th scope="row">Europa</th>
-            <td>Suiza</td>
-            </tr>
-            <tr>
-            <th scope="row">Europa</th>
-            <td>Noruega</td>
+            <td scope="row">Alemania<img alt="Imagen alemania" src="./images/bandera_alemania.png" width="20" height="100"></td>
+            <td>
+                <ul>
+                    <li><a href="nacionales.html">Salchichas</a></li>
+                    <li><a href="nacionales.html">Schnitzel</a></li>
+                    <li><a href="nacionales.html">Bretzel</a></li>
+                    <li><a href="nacionales.html">Chucrut</a></li>
+                </ul>
+            </td>
             </tr>
         </tbody>
         <tfoot>
         </tfoot>
         </table>
-
           <p></p>
         </section>
         <aside>
           <h3></h3>
-          <figure>
-            <img alt="Imagen cocina mundial" src="cocinamundi.jpg">
-            <figcaption></figcaption>
-          </figure>
         </aside>
       </article>
     </main>
     <footer>
-      <p>Cocinar nunca fue tan fácil</p>
-      <a href="#">Volver al inicio</a>
+      <a href="index.html">Volver al inicio</a>
     </footer>
     </body>
